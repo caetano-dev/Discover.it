@@ -8,15 +8,15 @@ function Header() {
         <h1>Discover.it</h1>
         <nav>
           <div>
-          <Link to="/">
-            <p>Home</p>
-          </Link>
-          <Link to="/About">
-            <p>About</p>
-          </Link>
-          <Link to="/Contact-us">
-            <p>Contact us</p>
-          </Link>
+            <Link to="/">
+              <a href="#">Home</a>
+            </Link>
+            <Link to="/About">
+              <a href="#">About</a>
+            </Link>
+            <Link to="/Contact-us">
+              <a href="#">Contact us</a>
+            </Link>
           </div>
         </nav>
       </header>
