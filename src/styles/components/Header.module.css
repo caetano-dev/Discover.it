@@ -1,14 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@600&display=swap");
 .Header {
   display: flex;
   align-items: center;
   height: 6rem;
-  background: rgb(48, 105, 75);
+  background: rgb(12, 56, 35);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 56, 35, 1) 0%,
+    rgb(36, 85, 59) 100%
+  );
+  /* background: rgb(48, 105, 75);
   background: linear-gradient(
     90deg,
     rgba(48, 105, 75, 1) 0%,
     rgba(12, 56, 35, 1) 100%
-  );
+  );*/
 }
 .Header h1 {
   font-size: 3rem;
@@ -23,12 +28,26 @@
   width: 100%;
 }
 .Header div {
- /* border: 1px solid rgb(134, 110, 110);*/
+  /* border: 1px solid rgb(134, 110, 110);*/
   display: flex;
 }
-.Header p {
+.Header a {
   font-family: Montserrat;
   font-size: 1.5rem;
   padding: 0 1rem;
   color: #62bd69;
+  text-decoration: inherit;
+}
+@media (max-width: 700px) {
+  .Header h1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .Header > nav {
+    margin-right: 1rem;
+  }
+  .Header a {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+  }
 }
