@@ -12,22 +12,22 @@ function PostContainer() {
       <Post
         image={rainforest}
         title="Amazon Rainforest"
-        description="Discover incredible landscapes"
+        description="Discover incredible landscapes."
       />
       <Post
         image={rio}
         title="Rio de Janeiro"
-        description="Discover the city of samba"
+        description="Discover the city of samba."
       />
       <Post
         image={brasilia}
         title="Brasilia"
-        description="Discover the capital of Brazil"
+        description="Discover the capital of Brazil."
       />
       <Post
         image={bonito}
         title="Bonito"
-        description="Discover incredible rivers"
+        description="Discover incredible rivers."
       />
     </div>
   );
