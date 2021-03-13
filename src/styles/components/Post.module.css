@@ -9,12 +9,12 @@
   width: 25rem;
   margin-left: 1rem;
   font-family: Raleway;
-  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.507);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
 }
 .Post img {
   width: 25rem;
   border-radius: 1rem 1rem 0rem 0rem;
-  transition: 0.1s
+  transition: 0.1s;
 }
 .Post img:hover {
   filter: brightness(1.1);
