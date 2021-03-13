@@ -1,0 +1,12 @@
+.PostContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+@media (max-width: 800px) {
+  .PostContainer {
+    grid-template-columns: auto;
+  }
+}
