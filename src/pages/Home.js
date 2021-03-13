@@ -1,34 +1,12 @@
 import Image from "../components/Image";
-import Post from "../components/Post";
-import rainforest from "../assets/rainforest.jpeg";
-import rio from "../assets/rio.jpg";
-import brasilia from "../assets/brasilia.jpeg";
-import bonito from "../assets/bonito.jpeg";
+import PostContainer from "../components/PostContainer";
+
 
 function Home() {
   return (
     <div>
       <Image />
-      <Post
-        image={rainforest}
-        title="Amazon Rainforest"
-        description="Discover incredible landscapes"
-      />
-      <Post
-        image={rio}
-        title="Rio de Janeiro"
-        description="Discover the city of samba"
-      />
-      <Post
-        image={brasilia}
-        title="Brasilia"
-        description="Discover the capital of Brazil"
-      />
-      <Post
-        image={bonito}
-        title="Bonito"
-        description="Discover incredible rivers"
-      />
+      <PostContainer/>
     </div>
   );
 }
