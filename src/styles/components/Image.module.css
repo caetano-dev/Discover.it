@@ -1,0 +1,27 @@
+.Image {
+  background-image: linear-gradient(
+      rgba(36, 34, 34, 0.76),
+      rgba(36, 34, 34, 0.76)
+    ),
+    url("../../assets/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 20rem;
+}
+
+.Image > h1,
+p {
+  font-family: Raleway;
+  color: rgb(180, 197, 183);
+}
+.Image > h1 {
+  padding-top: 7rem;
+  font-size: 3rem;
+}
+.Image > p {
+  font-size: 1.2rem;
+  text-shadow: 2px 1px 3px rgba(3, 3, 3, 0.596);
+  color: rgb(117, 163, 123);
+  font-weight:  bold
+}

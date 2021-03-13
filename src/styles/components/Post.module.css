@@ -1,0 +1,41 @@
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.Post {
+  border-radius: 1rem;
+  background-color: rgb(216, 216, 216);
+  text-align: center;
+  width: 30rem;
+  margin-left: 1rem;
+  font-family: Raleway;
+}
+.Post img {
+  width: 30rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.Post p {
+  color: rgb(32, 32, 32);
+}
+.Post button {
+  margin: 0.5rem 0rem 1rem 0rem;
+  height: 3rem;
+  width: 10rem;
+}
+@media (max-width: 700px) {
+  .Container {
+    width: 100%;
+  }
+  .Post {
+    background-color: rgb(216, 216, 216);
+    width: 20rem;
+    margin-left: 1rem;
+    font-family: Raleway;
+  }
+  .Post img {
+    width: 20rem;
+  }
+}
