@@ -1,5 +1,10 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  background: rgba(36, 85, 59, 1);
 }
