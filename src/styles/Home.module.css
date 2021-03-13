@@ -1,0 +1,8 @@
+.Text{
+    font-family: Raleway;
+    color: rgb(24, 24, 24);
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+    text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.513);
+}
