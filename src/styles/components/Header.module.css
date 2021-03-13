@@ -38,9 +38,14 @@
   color: #62bd69;
   text-decoration: inherit;
 }
+@media (max-width: 1000px) {
+  .Header a {
+    padding: 0 0.5rem;
+  }
+}
 @media (max-width: 700px) {
   .Header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 1rem;
   }
   .Header > nav {
@@ -48,6 +53,6 @@
   }
   .Header a {
     font-size: 1.2rem;
-    padding: 0.2rem;
+    padding: 0 0.2rem;
   }
 }
