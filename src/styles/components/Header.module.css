@@ -31,12 +31,16 @@
   /* border: 1px solid rgb(134, 110, 110);*/
   display: flex;
 }
-.Header a {
+.Header button {
+  border: none;
+  outline: none;
+  background-color: transparent;
   font-family: Montserrat;
   font-size: 1.5rem;
   padding: 0 1rem;
   color: #62bd69;
-  text-decoration: inherit;
+  text-decoration: none;
+  cursor: pointer
 }
 @media (max-width: 1000px) {
   .Header a {
