@@ -1,0 +1,21 @@
+.Footer {
+  background-color: black;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 6rem;
+  font-family: Raleway;
+  color: white;
+}
+.Footer span {
+  font-family: Montserrat;
+}
+.GithubContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GithubContainer span {
+  padding: 0.3rem;
+}
