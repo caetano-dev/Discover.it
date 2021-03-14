@@ -9,13 +9,13 @@ function Header() {
         <nav>
           <div>
             <Link to="/">
-              <a href="#">Home</a>
+              <button >Home</button>
             </Link>
             <Link to="/About">
-              <a href="#">About</a>
+              <button >About</button>
             </Link>
             <Link to="/Contact-us">
-              <a href="#">Contact us</a>
+              <button >Contact us</button>
             </Link>
           </div>
         </nav>
