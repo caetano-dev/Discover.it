@@ -5,11 +5,3 @@
   box-sizing: border-box;
   padding: 0;
 }
-html {
-  background: rgb(5, 43, 25);
-  background: linear-gradient(
-    0deg,
-    rgba(5, 43, 25, 1) 0%,
-    rgba(45, 172, 104, 1) 100%
-  );
-}

@@ -6,3 +6,12 @@
     padding-top: 5rem;
     text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.513);
 }
+.Home{
+    background: rgb(5, 43, 25);
+    background: linear-gradient(
+      0deg,
+      rgba(5, 43, 25, 1) 0%,
+      rgba(45, 172, 104, 1) 100%
+    );
+  }
+  
