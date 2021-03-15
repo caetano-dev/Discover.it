@@ -7,7 +7,7 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-  height: 90vh;
+  height: 65vh;
 }
 
 .Image > h1,
@@ -16,11 +16,20 @@ p {
   color: rgb(180, 197, 183);
 }
 .Image > h1 {
-  padding-top: 40vh;
+  padding-top: 25vh;
   font-size: 3rem;
 }
 .Image > p {
   font-size: 1.2rem;
   text-shadow: 2px 1px 3px rgba(3, 3, 3, 0.596);
   color: rgb(117, 163, 123);
+}
+
+@media only screen and (max-width: 1000px) {
+  .Image > h1 {
+    font-size: 2.5rem;
+  }
+  .Image > p {
+    font-size: 1rem;
+  }
 }

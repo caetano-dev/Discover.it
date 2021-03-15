@@ -1,11 +1,11 @@
 .PostContainer {
   display: grid;
   grid-template-columns: auto auto;
+  column-gap: 4rem;
   justify-content: center;
-  align-content: center;
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .PostContainer {
     grid-template-columns: auto;
   }
