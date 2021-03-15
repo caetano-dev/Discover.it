@@ -19,3 +19,14 @@
 .GithubContainer span {
   padding: 0.3rem;
 }
+
+@media only screen and (max-width: 1000px) {
+  .Footer span {
+    font-family: Montserrat;
+    font-size: .8rem;
+  }
+  .GithubContainer span {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+}
