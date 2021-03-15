@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css"
 
 function Home() {
   return (
-    <div>
+    <div className={styles.Home}>
       <Image />
       <h1 className={styles.Text}>Destinations waiting for you:</h1>
       <PostContainer />
