@@ -5,6 +5,11 @@
   justify-content: space-evenly;
   height: 6rem;
   font-family: Raleway;
+}
+.Footer p,
+h1,
+span,
+a {
   color: white;
 }
 .Footer span {
@@ -22,7 +27,7 @@
 @media only screen and (max-width: 1000px) {
   .Footer span {
     font-family: Montserrat;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .GithubContainer span {
     padding: 0.3rem;
