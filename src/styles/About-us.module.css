@@ -1,29 +1,24 @@
-.Home{
-   /* background-color: #62bd69;
-    background: linear-gradient(
-    0deg,
-    #62bd69 0%,
-    rgb(36, 85, 59) 100%
-  );*/
+.Home {
+  padding: 1rem;
+  background-color: #86aa89;
 }
-.Home > div {
- /* border: 2px solid blue;*/
-  display: flex;
-  justify-content: flex-end;
+.Home h1 {
+  font-size: 4rem;
 }
-.Home main {
-  text-align: right;
- /* border: 2px solid black;*/
+.Home h2,
+h1 {
+  font-family: Montserrat;
 }
-.Home p {
+.Home h1,
+h2,
+p {
+  color: rgb(27, 27, 27);
+}
+.Home strong,
+p {
   font-family: Raleway;
-  font-size: 1.5rem;
-  color: rgb(22, 21, 21);
 }
-
-.Home section {
-  background-color: rgb(91, 148, 91);
-  width: 45%;
-  margin-right: 1rem;
-  border-left: 1rem solid rgba(47, 194, 123, 0.308);
+.Home li {
+  margin: 0rem 1rem;
+  padding: 1rem 0rem;
 }
