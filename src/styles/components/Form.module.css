@@ -1,0 +1,42 @@
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(5, 43, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(5, 43, 25, 1) 0%,
+    rgba(45, 172, 104, 1) 100%
+  );
+}
+
+.Form div {
+  margin: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Form form {
+  background: rgb(45, 172, 104);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: grid;
+  box-shadow: 0rem 0rem 1rem black;
+}
+.Form label {
+  font-size: 2rem;
+  font-family: Montserrat;
+}
+.Form input {
+  border-radius: 4px;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.Form button {
+    border-radius: .5rem;
+    width: 12rem;
+    height: 4rem;
+    font-size: 2rem;
+}

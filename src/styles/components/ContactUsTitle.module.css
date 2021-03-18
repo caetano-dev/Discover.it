@@ -1,0 +1,29 @@
+.Contact {
+  background-image: linear-gradient(
+      rgba(36, 34, 34, 0.76),
+      rgba(36, 34, 34, 0.76)
+    ),
+    url("../../assets/leaves.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 25vh;
+}
+.Contact > h1 {
+  font-family: Raleway;
+  color: rgb(180, 197, 183);
+}
+.Contact > h1 {
+  padding-top: 10vh;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Contact {
+    height: 30vh;
+  }
+  .Contact > h1 {
+    font-size: 2.5rem;
+    padding-top: 12.5vh;
+  }
+}
