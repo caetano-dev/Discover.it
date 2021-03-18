@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Footer from "./components/Footer"
+import ContactUs from "./pages/ContactUs";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 function App() {
   return (
     <div className="App">
@@ -10,10 +12,10 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/About" exact component={About}/>
-          <Route path="/Contact-us" exact />
+          <Route path="/About" exact component={About} />
+          <Route path="/Contact-us" exact component={ContactUs} />
         </Switch>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
