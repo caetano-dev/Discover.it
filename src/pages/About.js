@@ -1,4 +1,4 @@
-import styles from "../styles/About-us.module.css";
+import styles from "../styles/AboutUs.module.css";
 import { RiPlantLine } from "react-icons/ri";
 function Home() {
   return (
