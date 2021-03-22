@@ -8,31 +8,31 @@ export default function Form() {
           <div>
             <label>
               Name:
-              <input type="text"></input>
+              <input type="text" required="true"></input>
             </label>
           </div>
           <div>
             <label>
               E-mail:
-              <input type="text"></input>
+              <input type="text" required="true"></input>
             </label>
           </div>
           <div>
             <label>
               Country:
-              <input type="text"></input>
+              <input type="text" required="true"></input>
             </label>
           </div>
           <div>
             <label>
               Phone number:
-              <input type="number"></input>
+              <input type="number" required="true"></input>
             </label>
           </div>
           <div>
             <label>
               Trip date:
-              <input type="date"></input>
+              <input type="date" required="true"></input>
             </label>
           </div>
           <div>
