@@ -13,7 +13,7 @@ function Footer() {
         <div className={styles.GithubContainer}>
           <span>Visit source code on</span>
           <a href="https://github.com/drull1000/website">
-            <FaGithub size="2rem" text-decoration="none" color="white" />
+            <FaGithub size="2rem" color="white" />
           </a>
         </div>
       </footer>
