@@ -4,6 +4,7 @@ import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Destination from "./pages/Destination";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="//:id" exact />
+          <Route path="/Destination" exact component={Destination} />
           <Route path="/About" exact component={About} />
           <Route path="/Contact-us" exact component={ContactUs} />
         </Switch>
