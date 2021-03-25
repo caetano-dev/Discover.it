@@ -1,0 +1,58 @@
+.Container {
+  /* background-color: #86aa89;*/
+  background: rgb(5, 43, 25);
+  background: linear-gradient(
+    0deg,
+    rgb(29, 126, 74) 0%,
+    rgba(45, 172, 104, 1) 100%
+  );
+}
+
+.Image {
+  background-image: linear-gradient(
+      rgba(36, 34, 34, 0.76),
+      rgba(36, 34, 34, 0.76)
+    ),
+    url("../../assets/rio.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 35vh;
+}
+
+.Image > h1,
+p {
+  font-family: Raleway;
+  color: rgb(180, 197, 183);
+  font-size: 1.5rem;
+}
+.Image > h1 {
+  padding-top: 14vh;
+  font-size: 3rem;
+}
+.Image > p {
+  font-size: 1.2rem;
+  text-shadow: 2px 1px 3px rgba(3, 3, 3, 0.596);
+  color: rgb(117, 163, 123);
+}
+
+.Destination ul {
+  padding: 1rem 4rem;
+}
+.Destination li {
+  font-size: 1rem;
+  font-family: Raleway;
+}
+.Destination p {
+  padding: 1rem 4rem;
+  color: rgb(0, 2, 1);
+}
+
+@media only screen and (max-width: 1000px) {
+  .Image > h1 {
+    font-size: 2.5rem;
+  }
+  .Image > p {
+    font-size: 1rem;
+  }
+}
