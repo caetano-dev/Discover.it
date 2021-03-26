@@ -10,37 +10,37 @@ const Destinations = [
     image: rainforest,
     title: "Amazon Rainforest",
     description: "Discover incredible landscapes.",
-    id: 1,
+    id: 0,
   },
   {
     image: rio,
     title: "Rio de Janeiro",
     description: "Discover the city of samba.",
-    id: 2,
+    id: 1,
   },
   {
     image: brasilia,
     title: "Brasilia",
     description: "Discover the capital of Brazil.",
-    id: 3,
+    id: 2,
   },
   {
     image: bonito,
     title: "Bonito",
     description: "Discover incredible rivers.",
-    id: 4,
+    id: 3,
   },
   {
     image: dunes,
     title: "Lençóis Maranhenses",
     description: "Discover the dunes.",
-    id: 5,
+    id: 4,
   },
   {
     image: jericoacoara,
     title: "Jericoacoara",
     description: "Discover incredible beaches.",
-    id: 6,
+    id: 5,
   },
 ];
 
