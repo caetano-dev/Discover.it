@@ -6,6 +6,12 @@
   height: 6rem;
   font-family: Raleway;
 }
+.Footer h1{
+  font-size: 2rem;
+}
+.Footer p{
+  font-size: 1rem;
+}
 .Footer p,
 h1,
 span,
