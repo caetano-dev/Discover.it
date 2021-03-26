@@ -1,9 +1,8 @@
 import styles from "../styles/components/Post.module.css";
-import { Link, useParams} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Destinations from "../Api";
 
 function Post() {
-  const { id } = useParams();
   return (
     <>
       {Destinations.map((destinaton) => (
@@ -13,7 +12,7 @@ function Post() {
             <h2>{destinaton.title}</h2>
             <p>{destinaton.description}</p>
             <Link to={`/Destination/${destinaton.id}`}>
-            <button>Learn more</button>
+              <button>Learn more</button>
             </Link>
           </div>
         </div>
