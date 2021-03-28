@@ -14,9 +14,10 @@ p {
 }
 .Title {
   background-color: rgba(39, 39, 39, 0.26);
-  display: grid;
+ display: grid;
   justify-content: center;
   padding-bottom: 2rem;
+
 }
 .Title img {
   border-radius: 0.5rem;
@@ -48,7 +49,12 @@ p {
 }
 
 @media only screen and (max-width: 1000px) {
-  img {
+  .Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Title img {
     width: 90%;
   }
 }
