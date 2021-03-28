@@ -1,24 +1,25 @@
-.Home {
+.About {
   background-color: #86aa89;
   padding: 2rem 5rem;
 }
-.Home h1 {
+.About h1 {
   font-size: 4rem;
 }
-.Home h2,
+.About h2,
 h1 {
   font-family: Montserrat;
 }
-.Home h1,
-h2,
-p {
+.About h1,
+h2 {
   color: rgb(27, 27, 27);
 }
-.Home strong,
-p {
+.About strong {
   font-family: Raleway;
 }
-.Home li {
+.About li {
   margin: 0rem 1rem;
   padding: 1rem 0rem;
+}
+li > p {
+  color: black;
 }
