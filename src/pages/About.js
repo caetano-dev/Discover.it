@@ -1,8 +1,8 @@
-import styles from "../styles/AboutUs.module.css";
+import styles from "../styles/About.module.css";
 import { RiPlantLine } from "react-icons/ri";
-function Home() {
+function About() {
   return (
-    <div className={styles.Home}>
+    <div className={styles.About}>
       <h1>About</h1>
       <h2>
         We are an ecological traveling company <RiPlantLine />
@@ -105,4 +105,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
