@@ -8,35 +8,35 @@ export default function Form() {
           <div>
             <label>
               Name:
-              <input type="text" required={true}></input>
+              <input type="text" name="name" required={true}></input>
             </label>
           </div>
           <div>
             <label>
               E-mail:
-              <input type="text" required={true}></input>
+              <input type="text" name="email" required={true}></input>
             </label>
           </div>
           <div>
             <label>
               Country:
-              <input type="text" required={true}></input>
+              <input type="text" name="country" required={true}></input>
             </label>
           </div>
           <div>
             <label>
               Phone number:
-              <input type="number" required={true}></input>
+              <input type="number" name="phone" required={true}></input>
             </label>
           </div>
           <div>
             <label>
               Trip date:
-              <input type="date" required={true}></input>
+              <input type="date" name="date" required={true}></input>
             </label>
           </div>
           <div>
-            <button>Submit</button>
+            <button onClick={()=> setHandleSubmit(true)}>Submit</button>
           </div>
         </form>
       </div>
