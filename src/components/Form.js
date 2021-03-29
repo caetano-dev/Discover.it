@@ -36,7 +36,7 @@ export default function Form() {
             </label>
           </div>
           <div>
-            <button onClick={()=> setHandleSubmit(true)}>Submit</button>
+            <button>Submit</button>
           </div>
         </form>
       </div>
