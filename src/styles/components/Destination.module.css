@@ -13,11 +13,11 @@ p {
   font-size: 1.5rem;
 }
 .Title {
+  padding-top: 1rem;
   background-color: rgba(39, 39, 39, 0.26);
- display: grid;
+  display: grid;
   justify-content: center;
   padding-bottom: 2rem;
-
 }
 .Title img {
   border-radius: 0.5rem;
