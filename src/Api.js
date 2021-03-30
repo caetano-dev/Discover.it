@@ -20,7 +20,7 @@ const Destinations = [
   },
   {
     image: brasilia,
-    title: "Brasilia",
+    title: "Brasília",
     description: "Discover the capital of Brazil.",
     id: 2,
   },
