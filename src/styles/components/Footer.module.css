@@ -25,18 +25,18 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .GithubContainer span {
   padding: 0.3rem;
 }
 
 @media only screen and (max-width: 1000px) {
+  .Footer {
+    padding: 1rem;
+  }
   .Footer span {
     font-family: Montserrat;
-    font-size: 0.8rem;
-  }
-  .GithubContainer span {
-    padding: 0.3rem;
     font-size: 0.8rem;
   }
 }

@@ -11,10 +11,10 @@ function Footer() {
           <p>2021</p>
         </div>
         <div className={styles.GithubContainer}>
-          <span>Visit source code on</span>
-          <a href="https://github.com/drull1000/website">
+          <span>Visit source code on <a href="https://github.com/drull1000/website">
             <FaGithub size="2rem" color="white" />
-          </a>
+          </a></span>
+          
         </div>
       </footer>
     </div>
