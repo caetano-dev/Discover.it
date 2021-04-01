@@ -57,4 +57,9 @@ p {
   .Title img {
     width: 90%;
   }
+
+  .Destination > p,
+  .Destination > li {
+    padding: 1rem 2rem;
+  }
 }
