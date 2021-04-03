@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styles from "../styles/components/Destination.module.css";
 import Destinations from "../Api";
 
 function Destination() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const { id } = useParams();
+
   return (
     <div className={styles.Container}>
-      
       <div className={styles.Title}>
         <h1>{Destinations[id].title}</h1>
         <p>{Destinations[id].description}</p>
