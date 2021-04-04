@@ -1,7 +1,8 @@
-# Work in progress
-# Getting Started with Create React App
+# Discover.it
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website for trips created with React.js
+
+You can visit the website by clicking [here](discover-it-git-master-drull1000.vercel.app)
 
 ## Available Scripts
 
