@@ -2,7 +2,7 @@
 
 A website for trips created with React.js
 
-You can visit the website by clicking [here](discover-it-git-master-drull1000.vercel.app)
+You can visit the website by clicking [here](https://discover-it-git-master-drull1000.vercel.app/)
 
 ## Available Scripts
 
