@@ -22,10 +22,9 @@ a {
   font-family: Montserrat;
 }
 .GithubContainer {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: center;
-  text-align: center;
 }
 .GithubContainer span {
   padding: 0.3rem;
