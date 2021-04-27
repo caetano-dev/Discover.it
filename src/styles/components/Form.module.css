@@ -15,10 +15,16 @@
   text-align: center;
   display: flex;
   align-items: center;
+  
 }
 .Form form {
-  background: rgb(45, 172, 104);
+  background: rgb(5, 43, 25);
+  background: radial-gradient( circle,
+    rgb(0, 156, 83) 0%,
+    rgb(54, 199, 122) 100%
+  );
   border-radius: 1rem;
+  border: solid rgb(29, 29, 29) .1rem;
   display: grid;
   box-shadow: 0rem 0rem 0.5rem black;
 }
@@ -29,7 +35,7 @@
 .Form input {
   font-size: 1rem;
   border-radius: 4px;
-  border: none;
+  border: 1px solid gray;
   padding: 1rem;
   margin-left: 1rem;
   background-color: rgb(224, 224, 224);
